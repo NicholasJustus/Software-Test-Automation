@@ -1,27 +1,23 @@
 # Software Test Automation  
 
-This project includes my **Contact**, **Task**, and **Appointment** services, each built with its own set of **JUnit 5 tests**. Every file in this repository represents the core work I did to learn backend logic, object validation, and how to structure automated unit tests in Java.  
+This project includes my **Contact**, **Task**, and **Appointment** services, each built with their own set of **JUnit 5 tests**. These files represent my work building, testing, and validating small backend systems designed to run entirely in memory. This setup allowed me to focus on functionality, correctness, and clean code without relying on external databases or frameworks.  
 
-I designed these classes to run completely in memory, meaning there’s no database or external dependencies. This helped me focus purely on functionality and correctness through unit testing. Each service performs simple CRUD operations and validates inputs to keep data consistent, while the test files confirm that every feature works as expected.  
-
----
-
-## What I Worked On  
-- Built Java classes for contacts, tasks, and appointments with clear validation rules.  
-- Developed matching service classes to handle creation, updates, and deletion.  
-- Wrote and ran JUnit 5 tests to verify that each method worked properly under different scenarios.  
-- Practiced writing modular, readable, and maintainable code that could easily be expanded later.  
+The **Contact Service** portion highlights how I structured unit tests to verify that core operations like creating, updating, and deleting contacts worked as intended while maintaining data integrity. Each test helped uncover potential logic issues early in development and ensured the code performed reliably under different scenarios.  
 
 ---
 
-## What I Learned  
-Through this project, I gained a stronger understanding of:  
-- **Unit testing** and why it’s important for catching issues early.  
-- **Clean code practices**, like keeping methods focused and easy to understand.  
-- **Object-oriented programming** principles such as encapsulation and data validation.  
-- Using **JUnit 5** to build reliable and repeatable automated tests.  
+## Reflection  
+
+### How can I ensure that my code, program, or software is functional and secure?  
+I ensure functionality and security by writing thorough **unit tests** that verify every feature behaves as expected. Using **JUnit 5**, I tested each method for valid and invalid inputs, which helped catch errors early. I also used validation logic within each class to prevent invalid data, such as overly long IDs or null fields. These practices help create reliable, secure code that doesn’t expose vulnerabilities through careless input handling.  
+
+### How do I interpret user needs and incorporate them into a program?  
+I interpret user needs by breaking down requirements into smaller, testable features. For example, the user needed a way to manage contacts efficiently, so I focused on making the `ContactService` easy to use, update, and maintain. I also think about how users would interact with the data — ensuring that each operation (create, update, delete) behaves in a predictable way and that error messages or restrictions make sense from a user perspective.  
+
+### How do I approach designing software?  
+My approach to software design starts with **planning and structure**. I like to define the purpose of each class, keep methods focused on one job, and write code that’s easy to test and maintain. In this project, I followed **object-oriented design principles** like encapsulation and separation of concerns. By combining this approach with automated testing, I was able to build a cleaner and more dependable backend system that could easily scale into a larger application later.  
 
 ---
 
-## Purpose  
-This repository is part of my growing portfolio and shows my hands-on experience with **software testing**, **automation**, and **Java development**. It reflects how I approach backend problem-solving and my focus on building reliable, testable systems.  
+## Summary  
+This project taught me how to apply **software testing and automation techniques** in a real development environment. I learned the importance of validation, clean design, and test coverage. The skills from this course — writing JUnit tests, debugging, and structuring reliable backend code — have strengthened my confidence as a software engineer and prepared me for larger, more complex systems in future courses and professional work.  
