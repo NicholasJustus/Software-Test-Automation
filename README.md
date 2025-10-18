@@ -20,4 +20,4 @@ My approach to software design starts with **planning and structure**. I like to
 ---
 
 ## Summary  
-This project taught me how to apply **software testing and automation techniques** in a real development environment. I learned the importance of validation, clean design, and test coverage. The skills from this course — writing JUnit tests, debugging, and structuring reliable backend code — have strengthened my confidence as a software engineer and prepared me for larger, more complex systems in future courses and professional work.  
+This project taught me how to apply **software testing and automation techniques** in a real development environment. I learned the importance of validation, clean design, and test coverage. The skills from this course writing JUnit tests, debugging, and structuring reliable backend code has strengthened my confidence as a software engineer and prepared me for larger, more complex systems in future courses and professional work.  
